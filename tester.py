@@ -3,8 +3,13 @@
 # declaring  program function declaration
 # program requirements provided by professor on prompt
 def sortbyincreasinglength(wordbank):
-    print("Option 0")
-    temp tempstring = " "
+    wordbank.sort(key=len)
+    i = 0
+    print("\t\t************Words In The Set Are The Following**************")
+    for i in range((len(wordbank))):
+        print(wordbank[i])
+    # ending for loop statement
+
     # len(list)
     # max(list)
     # min(list)
