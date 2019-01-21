@@ -9,6 +9,7 @@ def sortbyincreasinglength(wordbank):
     for i in range((len(wordbank))):
         print(wordbank[i])
     # ending for loop statement
+#ending sort increasing length function
 def sortbydecreasinglength(wordbank):
     wordbank.sort(key=len, reverse=True)
     i = 0
@@ -24,8 +25,7 @@ def sortbydecreasinglength(wordbank):
      # remove(obj)
      # count(obj)
      # insert(index, obj)
-
-
+#ending sortbydecreasinglength function 
 def sortbythemostvowels(wordbank):
      print("Option 2")
 def sortbytheleastvowels(wordbank):
@@ -35,12 +35,13 @@ def capitalizeeveryothercharacter(wordbank):
     for i in range((len(wordbank))):
         wordbank[i] = wordbank[i].capitalize()
         i = i + 2
+    # ending for loop statement
     i = 0
     print("\t\t************Words In The Set Are The Following**************")
     for i in range((len(wordbank))):
         print(wordbank[i])
-
-
+    # ending for loop statement
+#ending captialize function
 def reversewordordering(wordbank):
     print("Option 5")
 def foldwordsonmiddleoflist(wordbank):
@@ -92,7 +93,7 @@ def main():
         elif option ==6:
             foldwordsonmiddleoflist(bankofwords)
         # ending if else condition statement
-
+#ending main function
 
 main()
 
