@@ -31,7 +31,16 @@ def sortbythemostvowels(wordbank):
 def sortbytheleastvowels(wordbank):
     print("Option 3")
 def capitalizeeveryothercharacter(wordbank):
-    print("Option 4")
+    i = 0
+    for i in range((len(wordbank))):
+        wordbank[i] = wordbank[i].capitalize()
+        i = i + 2
+    i = 0
+    print("\t\t************Words In The Set Are The Following**************")
+    for i in range((len(wordbank))):
+        print(wordbank[i])
+
+
 def reversewordordering(wordbank):
     print("Option 5")
 def foldwordsonmiddleoflist(wordbank):
