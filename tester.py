@@ -9,19 +9,23 @@ def sortbyincreasinglength(wordbank):
     for i in range((len(wordbank))):
         print(wordbank[i])
     # ending for loop statement
-
-    # len(list)
-    # max(list)
-    # min(list)
-    # cmp(list1, list2)
-    # append(obj)
-    # remove(obj)
-    # count(obj)
-    # insert(index, obj)
-
-
 def sortbydecreasinglength(wordbank):
-     print("Option 1")
+    wordbank.sort(key=len, reverse=True)
+    i = 0
+    print("\t\t************Words In The Set Are The Following**************")
+    for i in range((len(wordbank))):
+        print(wordbank[i])
+    # ending for loop statement
+     # len(list)
+     # max(list)
+     # min(list)
+     # cmp(list1, list2)
+     # append(obj)
+     # remove(obj)
+     # count(obj)
+     # insert(index, obj)
+
+
 def sortbythemostvowels(wordbank):
      print("Option 2")
 def sortbytheleastvowels(wordbank):
